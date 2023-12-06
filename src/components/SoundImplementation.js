@@ -4,7 +4,7 @@ import Sound from 'react-native-sound';
 
 const SoundImplementation = () => {
   const playsound = () => {
-    var sound = new Sound('whoosh-transition.mp3', Sound.MAIN_BUNDLE, error => {
+    var sound = new Sound('whoosh.mp3', Sound.MAIN_BUNDLE, error => {
       if (error) {
         console.log('failed to load the sound', error);
         return;
